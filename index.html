@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante [Nome]</title>
+    <meta name="description" content="Il Ristorante [Nome] offre un'esperienza culinaria unica con piatti tradizionali e moderni preparati con ingredienti freschi e di alta qualità.">
+    <meta name="keywords" content="ristorante, cibo, cucina italiana, piatti tradizionali, cucina moderna, ingredienti freschi, alta qualità">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .hero-image {
+            background-image: url('hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            position: relative;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .hero-image h1 {
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .hero-image {
+                padding-top: 50px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Image Section -->
+    <div id="home" class="hero-image" style="background-image: url('hero.jpg');" loading="lazy">
+        <h1>Benvenuto al Ristorante [Nome]</h1>
+        <p>Un'esperienza culinaria unica</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Chi Siamo Section -->
+        <div id="chi-siamo" class="section">
+            <h2>Chi Siamo</h2>
+            <p>Il Ristorante [Nome] offre una straordinaria esperienza culinaria, combinando piatti tradizionali con un tocco moderno. Il nostro team di chef esperti utilizza solo ingredienti freschi e di alta qualità per creare piatti che delizieranno i tuoi sensi.</p>
+        </div>
+
+        <!-- Menu Section -->
+        <div id="menu" class="section">
+            <h2>Menu</h2>
+            <p>Esplora il nostro menu ricco di piatti deliziosi:</p>
+            <ul>
+                <li><strong>Antipasti:</strong> Bruschette, Caprese, Tartare di tonno</li>
+                <li><strong>Primi:</strong> Spaghetti alla Carbonara, Risotto ai Funghi, Lasagne</li>
+                <li><strong>Secondi:</strong> Bistecca alla Fiorentina, Filetto di Pesce, Pollo alla Cacciatora</li>
+                <li><strong>Dolci:</strong> Tiramisu, Panna Cotta, Gelato Artigianale</li>
+                <li><strong>Bevande:</strong> Vini pregiati, Cocktail, Bevande analcoliche</li>
+            </ul>
+        </div>
+
+        <!-- Contatti Section -->
+        <div id="contatti" class="section">
+            <h2>Contatti</h2>
+            <p>Indirizzo: Via Esempio, 123, Città, Paese</p>
+            <p>Telefono: +39 123 456 7890</p>
+            <p>Email: <a href="mailto:info@ristorante-nome.com">info@ristorante-nome.com</a></p>
+            <p>Seguici sui social media:</p>
+            <p>
+                <a href="https://www.facebook.com">Facebook</a> | 
+                <a href="https://www.instagram.com">Instagram</a> | 
+                <a href="https://www.twitter.com">Twitter</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ristorante [Nome]. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
